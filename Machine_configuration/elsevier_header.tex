@@ -1,0 +1,164 @@
+\usepackage{graphicx} % Required for inserting images
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{physics}
+\usepackage{ae}
+\usepackage{epsfig}
+\usepackage{amsmath}
+\usepackage{amssymb}
+%\usepackage{subfig}
+\usepackage{multirow}
+\usepackage{amsthm}
+\usepackage{url}         % formats URL addresses properly
+\usepackage[title]{appendix}%    % allows appendix section to be included
+\usepackage{lscape}      % allows a page to be rendered in landscape mode
+\usepackage{multicol}    % allows text in multi columns
+\usepackage{cancel}      % needed to show canceled terms in equations
+\usepackage{lettrine}
+\usepackage{placeins}
+%my packages
+\usepackage{comment}
+\usepackage{array}
+\usepackage{adjustbox}
+\usepackage{wrapfig}
+\usepackage[table]{xcolor}
+\usepackage{amsmath}
+\usepackage[most]{tcolorbox}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{amsfonts} 
+\usepackage{float}
+\usepackage{subcaption}
+\usepackage[labelsep=space]{caption}
+\usepackage{algpseudocode}
+\usepackage{algorithm}
+\usepackage{algorithmicx}%
+\usepackage{diagbox}
+\usepackage{lipsum}
+\usepackage{textcomp}
+\usepackage{listings}
+\usepackage{circledsteps}
+\usepackage{mathrsfs}%
+\usepackage{manyfoot}%
+\usepackage{booktabs}%
+\usepackage{hhline, multirow}
+\usepackage{tabulary}
+\usepackage{enumitem}
+\usepackage{slashbox}
+\usepackage{nicematrix}
+\usepackage{circledsteps}
+\usepackage{physics}
+\usepackage{pifont} % xmark
+
+\urldef\myurl\url{https://research.cec.sc.edu/files/cyberinfra/files/5-%20Setting%20WAN%20Bandwidth%20with%20Token%20Bucket%20Filter%20%28TBF%29.pdf}
+
+\urldef\sysctlurl\url{https://research.cec.sc.edu/files/cyberinfra/files/Lab%206.pdf}
+
+%%
+%%Abreviaturas
+%%%%%Deep Learning Neural Networks (DLNN)
+%%%%%Congestion Control (CC)
+%%%Recurrent Neural Networks (RNN)
+
+
+
+
+%\title{UAT}
+%\author{crereis }
+%\date{July 2025}
+
+
+
+
+\newcommand{\dirfig}{%
+	%~/Doutorado/figuras
+	%./figs%
+}
+
+\newcommand{\dirfigs}{%
+	%\dirfig
+}
+
+\newcommand{\fnbridgewifi}{%
+\footnote{\url{https://ueevii.com/products/ueevii-cpe450-100mbps-3km-point-to-point-wireless-bridge-2-pack}}%
+}
+
+\newcommand{\fnsatelite}{%
+\footnote{\url{https://www.starlink.com/br/business}}%
+}
+
+\newcommand{\fnfso}{%
+\footnote{\begin{tabular}[c]{@{}c@{}}\\ \url{https://www.nasa.gov/technology/6-things-you-need-to-know-about-nasas-laser-communications}\\ \url{-relay-demonstration/}\end{tabular}}%
+}
+
+
+\newcommand{\fnqm}{%
+\footnote{The QM starts a record every five nanoseconds, but this process, even if in a mapped-memory file, could take more than that. So, the timestamps in the QM column in Table \ref{tab:bmf_generating} do not differ by five nanoseconds.}%
+}
+
+\newcommand{\cc}[1]{\cellcolor{lightgray}#1} %cc -> collor cell
+
+\newcommand{\mr}[1]{
+	\multirow{2}{3em}{#1}%
+}
+\newcommand{\fontsdir}{%
+	./fonts%
+}
+
+
+\newcommand{\fncolab}{%
+	\footnote{\url{https://colab.google/}}%
+}
+
+
+\newcommand{\fnfsoerror}{%
+	\footnote{\url{https://support.transcelestial.com/support/solutions/articles/51000324695-bit-error-rates-what-is-ber-and-what-is-a-good-ber-}}
+}
+
+\newcommand{\fnc}{%
+\footnote{Every time the article mentions \textit{``the previous work''}, it refers to the Marcondes and Silva article referenced by \cite{b0000078}, which is a short version of this paper, utilizing just one bottleneck rate (10Mbps), up to 40 flows, and based on a simulated environment.}%
+}%
+
+\newcommand{\fnbbr}{\footnote{https://cloud.google.com/blog/products/networking/tcp-bbr-congestion-control-comes-to-gcp-your-internet-just-got-faster}}
+
+
+\newcommand{\fntcpdumplibpcap}{%	
+	\footnote{\url{https://www.tcpdump.org/}}%
+}
+
+\newcommand{\fnsysctlcongcontrol}{%	
+	%\footnote{\url{https://research.cec.sc.edu/files/cyberinfra/files/Lab\%206.pdf}}%
+	\footnote{\sysctlurl}%
+}
+
+\newcommand{\fnnetem}{%	
+	\footnote{\url{https://man7.org/linux/man-pages/man8/tc-netem.8.html}}%
+}
+
+
+\newcommand{\fnwestwoodwinsbbr}{\footnote{Among the traditional variants, BBR presented the highest normalized throughput in  practically all tests, losing by a very close (0.007) margin to WestwoodPlus in a single round, with 80 flows at 10Mbps.}}
+
+\newcommand{\fnfontbbr}{%
+	\footnote{\url{https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/net/ipv4/tcp_bbr.c?h=v6.15.2}} %
+}
+
+\newcommand{\model}[2]{%
+	#1$_{#2}$%
+}
+
+
+%
+
+\renewcommand{\figurename}{Fig.}
+
+
+\newcommand{\xmark}{\ding{55}}
+
+
+\newcommand{\fnnotebooks}{\footnote{For each bottleneck, the research data (training, generalization, and iPerf throughput) and notebooks used during experiments are available at https://drive.google.com/file/d/1gZvA2ut1TKcIkmOjJpN3O1ZNiUI08Cvo/view?usp=sharing.}}
+
+
+
+
+
+
+
